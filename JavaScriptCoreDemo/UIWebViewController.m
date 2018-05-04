@@ -74,7 +74,7 @@
     
     
     
-    //创建JSTestObject对象，赋值给js对象 实现js调取oc
+    //实现js调取oc  创建JSTestObject对象，赋值给js对象
     JSTestObject *test = [JSTestObject new];
     self.context[@"testobject"] = test;
     

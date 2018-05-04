@@ -57,7 +57,7 @@
     completionHandler();
 }
 
-
+//js 调用 oc
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message{
     NSLog(@"%@",message.body);
     NSLog(@"%@",message.name);
